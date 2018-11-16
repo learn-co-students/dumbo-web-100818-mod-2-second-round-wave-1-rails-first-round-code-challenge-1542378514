@@ -4,4 +4,9 @@ class VendorsController < ApplicationController
     @vendors = Vendor.all
   end
 
+  def show
+    @vendor = Vendor.find(params[:id])
+    @vendorsweets = Vendorsweet.all
+  end
+
 end
