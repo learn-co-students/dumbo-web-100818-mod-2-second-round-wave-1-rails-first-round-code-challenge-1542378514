@@ -27,17 +27,17 @@ We've been building an application where we can see all of the sweets that vendo
 
 ***To help complete this task we listed out the required steps below. Look through them carefully to get a sense of the requirements of this code challenge, then tackle them one by one.***
 
-1. Start with creating the `VendorSweet` model. We'll need to make sure to also have the appropriate migration to our schema for this to work. It is always suggested to test that our migration worked, so go into the console and try to create your first `VendorSweet` with a given `Sweet` and `Vendor`.
+<!-- 1. Start with creating the `VendorSweet` model. We'll need to make sure to also have the appropriate migration to our schema for this to work. It is always suggested to test that our migration worked, so go into the console and try to create your first `VendorSweet` with a given `Sweet` and `Vendor`. -->
 
-2. A user should be able to go and create a new connection between a vendor and a sweet through a new form of `VendorSweet`. The form should include a dropdown to select a vendor and another dropdown to select its sweet. We'd like the route to this form to follow the RESTful convention. Once the `VendorSweet` is created, we'd like to go to the selected vendor's show page.
+<!-- 2. A user should be able to go and create a new connection between a vendor and a sweet through a new form of `VendorSweet`. The form should include a dropdown to select a vendor and another dropdown to select its sweet. We'd like the route to this form to follow the RESTful convention. Once the `VendorSweet` is created, we'd like to go to the selected vendor's show page. -->
 
-3. The vendor's show page should include the vendor's name (ie. Insomnia Cookies) and a list of the sweets that they sell.
+<!-- 3. The vendor's show page should include the vendor's name (ie. Insomnia Cookies) and a list of the sweets that they sell. -->
 
-4. On the vendor's index page, we should see a list of vendor's names (we've already done this part for you). When a user clicks on a vendor's name, it should take a user to the vendor's show page.
+<!-- 4. On the vendor's index page, we should see a list of vendor's names (we've already done this part for you). When a user clicks on a vendor's name, it should take a user to the vendor's show page. -->
 
-5. On the sweet's index page, we should see a list of sweet's names (we've already done this part for you). When a user clicks on a sweet's name, it should take a user to the sweet's show page.
+<!-- 5. On the sweet's index page, we should see a list of sweet's names (we've already done this part for you). When a user clicks on a sweet's name, it should take a user to the sweet's show page. -->
 
-6. The sweet's show page should include the sweet's name.
+<!-- 6. The sweet's show page should include the sweet's name. -->
 
 
 ### Hints / Tips
