@@ -1,0 +1,9 @@
+vendor show pag
+<br>
+
+Vendor Name:<%= @vendor.name %>
+<%  @vendor.sweets.each do |sweet|%>
+<br>
+
+<%= sweet.name %>
+<%end %>

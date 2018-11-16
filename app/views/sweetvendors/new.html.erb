@@ -1,0 +1,9 @@
+new page sweetvendor
+
+<%= form_for @sweetvendor do |f| %>
+<%= f.label :Sweet %>
+<%= f.collection_select :sweet_id, @sweet, :id, :name %>
+<%= f.label :Vendor %>
+<%= f.collection_select :vendor_id, @vendor, :id, :name %>
+<%= f.submit  %>
+<%end %>
